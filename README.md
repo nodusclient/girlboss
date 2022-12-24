@@ -1,10 +1,6 @@
 # Girlboss
 
-Girlboss is a mod that lets you detect when someone sends a private message to another player and attempts to detect who the receiving player is.
+Girlboss is a mod that detects when people are sending private messages, and who has seen them. This is done by detecting acknowledgements of messages you haven't received via the last seen field.
 
-The detection of someone sending a message is achieved by listening to "header packets" which are sent whenever a private message is sent.
-
-The detection of who received it is achieved by comparing the "last message" field on the receiver's next chat message.
-
-[Demo Video](https://www.youtube.com/watch?v=xnvMJV1unEY)
+[Demo Video](https://www.youtube.com/watch?v=qnf4P1dGR9g)
 

@@ -11,16 +11,12 @@
   "license": "MIT",
   "icon": "assets/girlboss/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "gg.nodus.girlboss.Girlboss"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
     "girlboss.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.8",
-    "minecraft": "1.19.2"
+    "minecraft": "1.19.3"
   }
 }

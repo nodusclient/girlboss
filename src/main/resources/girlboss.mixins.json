@@ -3,10 +3,8 @@
   "minVersion": "0.8",
   "package": "gg.nodus.girlboss.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
   "client": [
-    "MixinClientPlayNetworkHandler"
+    "MixinMessageHandler"
   ],
   "injectors": {
     "defaultRequire": 1
